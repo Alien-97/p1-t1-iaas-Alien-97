@@ -1,0 +1,8 @@
+sudo: required
+language: node_js
+node_js:
+  - 'stable'
+before_install:
+  - npm i -g npm@6.4.1
+  - cd databases
+cache: npm
