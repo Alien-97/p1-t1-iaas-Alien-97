@@ -8,7 +8,7 @@ const fs = require('fs'); // libreria para lectura por fichero
 const expect = require('chai').expect; // require del
 //modulo expect de la librería chai
 
-const rdf = fs.readFileSync(`../data/cache/epub/132/pg132.rdf`); // la ruta al fichero que vamos a parsear
+const rdf = fs.readFileSync(`../data/pg132.rdf`); // la ruta al fichero que vamos a parsear
 //console.log(JSON.stringify(book, null, ' '));
 
 describe('parseRDF', () => {

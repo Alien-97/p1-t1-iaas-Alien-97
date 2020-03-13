@@ -7,7 +7,7 @@
     "test": "mocha",
     "test:watch": "mocha --watch --reporter min",
     "test:debug": "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
-   },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

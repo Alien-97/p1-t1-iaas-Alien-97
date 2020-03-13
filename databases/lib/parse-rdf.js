@@ -23,7 +23,6 @@ module.exports = (rdf) => {
   book.authors = $('pgterms\\:agent pgterms\\:name')
     .toArray()
     .map((elem) => $(elem).text());
-
   book.subjects = $('[rdf\\:resource$="/LCSH"]')
     .parent()
     .find('rdf\\:value')
