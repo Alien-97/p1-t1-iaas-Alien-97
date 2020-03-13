@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/Alien-97/p2-t1-testing-Alien-97-travis.svg?branch=master)](https://travis-ci.com/Alien-97/p2-t1-testing-Alien-97-travis)
 # Práctica Transforming Data and Testing Continuously
 
 - Autor: Alien Embarec Riadi
